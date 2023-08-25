@@ -1,0 +1,215 @@
+:root{
+    --white1:#edf2f4 ;
+    --white2:#8d99ae ;
+    --black:#2b2d42 ;
+    --darkred:#d90429 ;
+    --red:#ef233c ;
+
+}
+body{
+    background:var(--white1);
+    font-size: .7rem;
+    
+}
+h1{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.container-fluid_1{
+    
+    
+    padding: 10px 80px;
+    
+}
+
+.nav{
+    
+    position: relative;
+    justify-content: end;
+    font-size: .9rem;
+    background: var(--black);
+    height: 15vh;
+}
+.nav-link{
+    /* height: 15vh; */
+    
+    color: var(--white1);
+    transition: .3s;
+    margin-top: 50px;
+
+}
+
+.nav-link:hover{
+    color: var(--red);
+    border-bottom: 5px solid var(--red);
+    border-radius: 10px;
+    
+    
+}
+.navigation img{
+    width: 100px;
+    position: absolute;
+   
+    z-index: 1;
+    margin-left: 100px;
+    margin-top: 40px;
+    transition: 1s;
+}
+.navigation img:hover{
+    border: 3px solid var(--white1);
+    border-radius: 50%;
+    transform: rotate(1.0turn);
+    /* transition: .5s; */
+
+}
+
+.section1{
+    
+    /* position: relative;
+    padding: 10px 85px; */
+    height: 60vh;
+    
+    background-color: var(--white1);
+}
+
+.section1 .row h1{
+    margin-top: 10vh;
+}
+.section2{
+    position: relative;
+     margin-top: 50px;
+     
+}
+.section2 .row .col p{
+    border: 2px solid black;
+    
+    position: relative;
+    margin-top: 70px;
+    font-size: 18px;
+}
+
+.arrange{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+    
+}
+.arrange a{
+    text-decoration: none;
+    color: var(--red);
+    transition: .8s;
+
+}
+.arrange a:hover span{
+    
+    border-bottom: 3px solid var(--red);
+    border-radius: 5px;
+}
+
+.section2 .row .col1{
+    display: flex;
+    align-items: center;
+}
+
+.services h2 span{
+    border: 5px solid var(--darkred);
+}
+
+#serviceButton{
+    position: relative;
+    
+    padding: 10px 25px;
+    border: 2px solid var(--red);
+    background: var(--red);
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+#serviceButton:hover{
+    background-color: var(--white1);
+    color: black;
+    box-shadow: 3px 3px red , -3px  -3px var(--red);
+}
+
+
+
+
+.OurProcess h2 span{
+    border: 5px solid var(--darkred);
+}
+
+#processButton{
+    position: relative;
+    
+    padding: 10px 25px;
+    border: 2px solid var(--red);
+    background: var(--red);
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+#processButton:hover{
+    background-color: var(--white1);
+    color: black;
+    box-shadow: 3px 3px red , -3px  -3px var(--red);
+}
+.dabaa1, .dabaa2{
+    position: relative;
+    background-color: var(--black);
+    color: var(--white1);
+    border: 2px solid var(--red);
+}
+.dabaa1 img, .dabaa2 img{
+    position: relative;
+    width: 10vw;
+    /* border: 2px solid var(--red); */
+    justify-content: center;
+    /* border-radius: 50%; */
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .dabaa1 h3, .dabaa2 h3{
+    color: var(--red);
+  }
+
+
+  /* urgent work carosel image */
+.OWL .item{
+    background: var(--black);
+    
+    /* height: 500px; */
+    padding: 10px;
+    border: 3px solid var(--red);
+    border-radius: 20px;
+    color: var(--white1);
+    
+
+}
+.owl-carousel{
+border: 2px solid var(--red);
+
+}
+.animatedCaro{
+border: 2px solid var(--red);
+}
+
+.OWL .item h4{
+    text-decoration: none;
+    color: var(--red);
+    transition: .8s;
+}
+.OWL .item h4:hover span{
+    color: var(--white1);
+    border-bottom: 2px solid var(--red);
+}
+
+  /*  */
+
+
+
